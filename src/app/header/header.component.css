@@ -1,0 +1,12 @@
+.navbar{
+    background-color: antiquewhite;
+}
+.nav-link{
+    font-size: large;
+}
+img{
+    height:27px;
+}
+.icon:hover{
+    opacity: 0.5;
+}

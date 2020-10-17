@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-16274.827 -12337.745 24.001 24.296">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #434f5b;
+      }
+    </style>
+  </defs>
+  <g id="truck_1_" data-name="truck (1)" transform="translate(-16516 -12989)">
+    <g id="Group_6836" data-name="Group 6836" transform="translate(241.174 651.255)">
+      <g id="Group_6835" data-name="Group 6835" transform="translate(0 0)">
+        <path id="Path_2406" data-name="Path 2406" class="cls-1" d="M394.19,364.107a1.772,1.772,0,1,1-1.885,1.768A1.831,1.831,0,0,1,394.19,364.107Zm0,2.371a.6.6,0,1,0-.643-.6A.625.625,0,0,0,394.19,366.478Z" transform="translate(-386.618 -345.126)"/>
+        <path id="Path_2407" data-name="Path 2407" class="cls-1" d="M372.092,340.114a3.554,3.554,0,1,1-3.78,3.547A3.673,3.673,0,0,1,372.092,340.114Zm0,5.928a2.386,2.386,0,1,0-2.538-2.382A2.466,2.466,0,0,0,372.092,346.042Z" transform="translate(-364.521 -322.912)"/>
+        <rect id="Rectangle_786" data-name="Rectangle 786" class="cls-1" width="12.637" height="1.165" transform="translate(11.363 17.202)"/>
+        <path id="Path_2409" data-name="Path 2409" class="cls-1" d="M249.8,367.645h-9.456v-3.537H249.8Zm-1.242-2.371H241.59v1.206h6.972Z" transform="translate(-228.342 -345.127)"/>
+        <rect id="Rectangle_787" data-name="Rectangle 787" class="cls-1" width="1.896" height="1.165" transform="translate(6.308 13.052)"/>
+        <path id="Path_2411" data-name="Path 2411" class="cls-1" d="M382.629,110.42v-1.2h1.242v1.2h.654v-2.382h1.242v2.382h1.264v14.208h-3.148a4.308,4.308,0,0,0-4.434,4.16v.583H376.31V110.42Zm-5.077,13.635h.654v-1.206h-.654Zm1.9-7.124v2.382h4.445v-5.356h-6.34v5.356h.653V116.93h1.242Zm-1.9-4.14h7.582v7.687h-7.582v1.206h1.9v3.537h-1.9V128.2h.687a5.565,5.565,0,0,1,5.642-4.743h1.906V111.585h-8.236v1.206Z" transform="translate(-376.31 -108.038)"/>
+      </g>
+    </g>
+  </g>
+</svg>

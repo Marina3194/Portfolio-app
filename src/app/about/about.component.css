@@ -1,0 +1,42 @@
+.jumbotron{
+    margin-top:20px;
+    background-color: #ffffff !important;
+}
+h1{
+    margin: -15px 0 15px 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.font-family-cursive{
+    font-family: cursive;
+}
+strong{
+    font-family: cursive;
+    color: #6c757d;
+}
+li{
+    list-style : none;
+}
+.arrow {
+    margin-right: 10px;
+    border: solid indianred;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+.education-label{
+    margin-top: -88px;
+    margin-bottom: 31px;
+    font-weight: bold;
+    text-decoration: underline;
+}  
+.skills-img{
+    height: 40px;
+    margin-right: 20px;
+}

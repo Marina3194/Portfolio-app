@@ -1,0 +1,86 @@
+.row{
+    margin:0;
+    height:100vh;
+    background-image: linear-gradient(to bottom, indianred, antiquewhite);
+}
+.left-wrapper{
+    height:92vh;
+    background-color:#b35282 ;
+}
+.right-wrapper{
+    height:92vh;
+}
+.jumbotron{
+    margin-top:20px;
+}
+.center-div{
+    width: 200px;
+	height: 200px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+    right: 0;
+    border: 1px solid;
+    background-color: antiquewhite;
+    border-radius: 50%;
+	margin: auto;
+}
+h3{
+    white-space: nowrap;
+    margin-left: -221px;
+    font-family: cursive;
+}
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 17px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    background:none;
+    font-family: cursive;
+    outline: none;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

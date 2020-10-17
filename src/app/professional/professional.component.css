@@ -1,0 +1,24 @@
+.jumbotron{
+    margin-top:20px;
+    background-color: indianred !important;
+    color: antiquewhite;
+}
+.float-right{
+    float:right;
+    font-weight: lighter;
+}
+li{
+    list-style : none;
+}
+.arrow {
+    margin-right: 10px;
+    border: solid antiquewhite;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
