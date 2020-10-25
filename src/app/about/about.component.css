@@ -8,11 +8,7 @@ h1{
     font-weight: 700;
     text-transform: uppercase;
 }
-.font-family-cursive{
-    font-family: cursive;
-}
 strong{
-    font-family: cursive;
     color: #6c757d;
 }
 li{
