@@ -22,3 +22,6 @@ li{
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
   }
+  .font-size-small{
+      font-size: smaller;
+  }

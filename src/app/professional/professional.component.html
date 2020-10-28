@@ -1,4 +1,21 @@
-<div class="container">
+<div class="container" *ngIf= "isDataAvailable">
+    <div class="jumbotron" style ="margin-top: 100px;">
+        <h2>Professional Summary</h2>
+        <ul>
+            <li><i class="arrow right"></i>4.5+ years of Experience as UI Developer.</li>
+            <li><i class="arrow right"></i>Worked in an Agile Project as a UI Developer with TCS for TIP Matrix.</li>
+            <li><i class="arrow right"></i>Worked in a Waterfall model based Project as a UI Developer with TCS for Element fleet Management, GE.</li>
+        </ul>
+    </div>
+    <div class="jumbotron"> 
+        <h2>Employment History</h2>
+        <div *ngFor="let experience of formData.experienceBlocks; let i = index">
+            <h5>{{i+1}}. {{experience.title}}, {{experience.company}}  <span class="float-right font-size-small">{{experience.startDate | date: 'dd/MM/yyyy'}} - {{experience.endDate | date: 'dd/MM/yyyy'}}</span></h5>
+            <div>{{experience.description}}</div>
+        </div>    
+    </div>
+</div>
+<div class="container" *ngIf= "!isDataAvailable">
     <div class="jumbotron" style ="margin-top: 100px;">
         <h2>Professional Summary</h2>
         <ul>
@@ -38,15 +55,4 @@
             <li><i class="arrow right"></i>Worked on defects raised during unit testing, DEV, UAT, Staging and Production.</li>
         </ul>
     </div>
-    <!-- <div class="row jumbotron">
-        <div class="col-md-4" style="width: 18rem;">
-            <img src="assets/images/angular-icon.png" alt="Angular">
-        </div>
-        <div class="col-md-4" style="width: 18rem;">
-            <img src="assets/images/html-icon.png" alt="HTML">
-        </div>
-        <div class=" col-md-4" style="width: 18rem;">
-            <img src="assets/images/css-icon.png"  alt="CSS">
-        </div>
-    </div>   -->
 </div>

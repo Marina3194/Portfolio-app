@@ -26,6 +26,16 @@
     border-radius: 50%;
 	margin: auto;
 }
+.center-div-data{
+  width: 200px;
+	height: 200px;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+  right: 0;
+	margin: auto;
+}
 h3{
     white-space: nowrap;
     margin-left: -200px;
@@ -81,4 +91,9 @@ h3{
   .button:hover span:after {
     opacity: 1;
     right: 0;
+  }
+
+  .createBtn{
+    margin-top: 42%; 
+    font-weight: bold;
   }

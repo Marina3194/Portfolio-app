@@ -1,10 +1,20 @@
   <div class="row">
-    <div class="center-div">
-       <img src="assets/images/myAvatar.png" class="img-fluid" alt="Marina">
-       <h3>Hi, I'm Marina, Frontend developer from Pune!!</h3>
+    <div class="center-div-data" *ngIf="nameCheck">
+       <!-- <img src="{{formData.profilePic}}" class="img-fluid" alt="Marina"> -->
+       <h3 style="margin-left:12px;">Hi, I'm {{formData.firstName}}!!</h3>
        <button class="button" style="vertical-align:middle" (click)="gotToAbout()">
         <span>Click here to know more about me</span>
       </button>
     </div>
+    <div class="center-div" *ngIf="!nameCheck">
+      <img src="assets/images/myAvatar.png" class="img-fluid" alt="Marina">
+       <h3>Hi, I'm Marina, Frontend developer from Pune!!</h3>
+      <button class="button" style="vertical-align:middle" (click)="gotToAbout()">
+       <span>Click here to know more about me</span>
+     </button>
+   </div>
+    <button class="button createBtn" (click)="gotToCreateForm()">
+      <span>Create your own Portfolio</span>
+    </button>
   </div>
 
